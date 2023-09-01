@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;800&family=Special+Elite&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ihnhalt {
+    z-index: 20;
+    background-color: rgb(21, 50, 99);
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 46%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    border-style: hidden;
+    padding: 2rem;
+    text-align: center;
+}
+
+.ihnhalt h1 {
+    font-size: 60pt;
+}
+
+.container img {
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+
+.footer {
+    color: white;
+    
+    height: 4vh;
+    width: 100%;
+    z-index: 30;
+    position: absolute;
+    bottom: 0;
+    padding-top: 2mm;
+    text-align: center;
+    font-size: 11pt;
+    font-weight: 100;
+}
+
+.footer a {
+    color: white;
+    font-size: 10pt;
+    font-weight: 100;
+    font-weight: 100;
+}
+
+.footer a:hover {
+    color: rgb(21, 50, 99);
+    font-weight: 400;
+    background: white;
+    border-style: hidden;
+    border-radius: 10px;
+    padding: 1mm;
+}

@@ -1,0 +1,42 @@
+body {
+      margin: 0;
+      height: 100vh; /* volle Höhe */
+      display: flex; 
+      justify-content: center; /* horizontal zentrieren */
+      align-items: center;    /* vertikal zentrieren */
+      background-color: #0d504c;
+      font-family: sans-serif;
+    }
+
+    .kasten {
+      background: white;
+      padding: 2rem;
+      border-radius: 50px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      max-width: 500px;
+      text-align: center;
+    }
+
+    img {
+        height: 6cm;
+        border-radius: 15mm;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  background: #0d504c; /* gleiche Farbe wie Body */
+}
+
+.foot {
+  color: gray;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+    
+    
